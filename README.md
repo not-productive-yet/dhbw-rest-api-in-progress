@@ -8,3 +8,4 @@ Commits:
 
 15/02 - initial setup with express.js
 21/02 - dockerized service, added mongo and data models
+26/02 - added documentation
