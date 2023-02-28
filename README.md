@@ -1,11 +1,16 @@
-# DHBW-REST-API-Example (in progress)
+# DHBW-REST-API-Example
 
-The DHBW-REST-API-Example project, continuously updated
+This is an example REST API project built wit Node.js and Express,
+part of a distributed systems lecture @ DHBW Karlsruhe.
 
-Complete version and full readme: https://github.com/not-productive-yet/dhbw-rest-api-example
+The service is dockerized; the frontend, the backend and a MongoDB
+run inside of containers orchestrated via docker-compose.
 
-Commits:
+The rudimental React frontend application demonstrates a frotend to
+backend connection via fetch.
 
-15/02 - initial setup with express.js
-21/02 - dockerized service, added mongo and data models
-26/02 - added documentation
+## Run the app 🚀
+
+- frontend: `cd simple-frontend && npm run start`
+- backend: `cd simple-backend && npm run start`
+- all containers (frontend, backend, mongo): `cd simple-backend && npm run d-up`
